@@ -1,0 +1,87 @@
+body{
+    margin: 0;
+    background: #e8e6e4;
+    font-family: 'shadow-multiple', sans-serif;
+    font-weight: 300;
+}
+
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+header{
+    background: #cfb9a2;
+}
+
+header::after{
+    content:'';
+    display: table;
+    clear: both;
+}
+
+.myLogo{
+    float: left;
+    padding: 5px 0;
+}
+
+nav{
+    float: right;
+}
+
+nav ul{
+
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+}
+
+nav li{
+
+    display: inline-block;
+    margin-left: 100px;
+    padding-top: 35px;
+    position: relative;
+}
+
+nav a{
+
+    color: #444;
+    text-decoration:none;
+    text-transform: uppercase;
+    font-size: 24px;
+
+}
+
+nav a:hover{
+    color: #000;
+}
+
+nav a::before{
+    content: '';
+    background-color: #444;
+    display: block;
+    top: 0;
+    width: 0%;
+    height: 5px;
+    position: absolute;
+    transition: all ease-in-out 100ms;
+}
+
+nav a:hover::before{
+    width: 100%;
+}
+
+.myImage{
+    float: left;
+    padding-top: 180px;
+    padding-left: 140px;
+}
+
+.myStory{
+    padding-top: 200px;
+    padding-left: 570px;
+    font-size: 24px;
+}
