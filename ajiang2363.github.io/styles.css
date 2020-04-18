@@ -1,6 +1,6 @@
 body{
     margin: 0;
-    background: #2deaff;
+    background: #e8e6e4;
     font-family: 'shadow-multiple', sans-serif;
     font-weight: 300;
 }
@@ -12,7 +12,7 @@ body{
 }
 
 header{
-    background: #57d8e6;
+    background: #cfb9a2;
 }
 
 header::after{
@@ -72,4 +72,16 @@ nav a::before{
 
 nav a:hover::before{
     width: 100%;
+}
+
+.myImage{
+    float: left;
+    padding-top: 180px;
+    padding-left: 140px;
+}
+
+.myStory{
+    padding-top: 200px;
+    padding-left: 570px;
+    font-size: 24px;
 }
